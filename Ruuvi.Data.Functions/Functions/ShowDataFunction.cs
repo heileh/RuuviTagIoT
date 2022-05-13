@@ -36,7 +36,7 @@ namespace Ruuvi.Data.Functions.Functions
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            // Get a connection string to our Azure Storage account.
+            // Get a connection string to Azure Storage account.
             string storageAccountConnection = _config["RuuviStorageAccount"];
             string containerName = _config["RuuviContainerName"];
 
